@@ -1,4 +1,4 @@
-# polling_api
+# Polling System Api
 
 A Polling System Api created by using express, mongoDb. which has following features given as below.
 
