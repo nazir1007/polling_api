@@ -1,6 +1,6 @@
 # polling_api
 
-A Polling System Api which has following features.
+A Polling System Api created by using express, mongoDb. which has following features given as below.
 
 Features :
 - Create a question (you can add as many questions as you want)
@@ -34,7 +34,7 @@ Api's :
 - mongoose - v6.9.1
 - nodemon - v2.0.20
 
-## cerated_at
+## created_at
 
 18 feb 2023
 
