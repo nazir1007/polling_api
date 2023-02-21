@@ -29,6 +29,7 @@ Api's :
 ## Version
 
 - node - v16.14.2
+- dotenv - v16.0.3
 - express - v4.18.2
 - mongoose - v6.9.1
 - nodemon - v2.0.20
