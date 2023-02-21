@@ -1,6 +1,7 @@
+// ----- Importing mongoose ----- //
 const mongoose = require('mongoose');
 
-// create the Question Schema
+//----- Create the Question Schema -----//
 const QuestionSchema = new mongoose.Schema({
 
     id: {

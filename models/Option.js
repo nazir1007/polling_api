@@ -1,6 +1,7 @@
+ // ------ Importing mongoose ------ //
 const mongoose = require('mongoose');
 
-// Create the Option Schema
+// ----- Create the Option Schema -----//
 const OptionSchema = new mongoose.Schema({
 
     id: {

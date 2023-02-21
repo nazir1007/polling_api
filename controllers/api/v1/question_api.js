@@ -41,11 +41,10 @@ module.exports.createQuestion = async (req, res) => {
  */
 
 
-// http://localhost:5000/api/v1/question/id/option/create
+// http://localhost:5000/api/v1/question/:id/option/create
 module.exports.createOption = async(req, res) => {
 
     try{
-
          // ------ Checking Question exists or not ------ //
         let question = await Question.findById(req.params.id);
 
@@ -128,7 +127,7 @@ module.exports.viewQuestion = async (req, res) => {
  Method:         DELETE
  */
 
-// http://localhost:5000/api/v1/question/id/delete
+// http://localhost:5000/api/v1/question/:id/delete
 module.exports.deleteQuestion = async(req, res) => {
 
     try{
@@ -159,7 +158,7 @@ module.exports.deleteQuestion = async(req, res) => {
             await Question.findByIdAndDelete(id);
 
             return res.status(404).json({
-                message: "Question deleted Successfully"
+                message: "Question not found"
             })
         }
 
